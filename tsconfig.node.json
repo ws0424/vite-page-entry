@@ -5,5 +5,5 @@
     "moduleResolution": "node"
   },
 
-  "include": ["vite.config.ts","vite/**/*.ts"]
+  "include": ["vite.config.ts","vite/**/*.ts","vite/**/*.json"]
 }

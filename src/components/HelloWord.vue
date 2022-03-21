@@ -1,5 +1,12 @@
-<template>hello word</template>
+<template>{{ msg }}</template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+defineProps({
+  msg: {
+    type: String,
+    default: "default",
+  },
+});
+</script>
 
 <style></style>
